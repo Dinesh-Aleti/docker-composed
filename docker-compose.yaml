@@ -6,10 +6,10 @@ services:
       - data:/data/db
     env_file:
       - ./env2/mongo.env
-  backend:
-    image: 'backend-image'
-  frontend:
-    image: 'frontend-image'
+  # backend:
+  #   image: 'backend-image'
+  # frontend:
+  #   image: 'frontend-image'
 
 volumes:
   data:
